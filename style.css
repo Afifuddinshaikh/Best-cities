@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+     font-family: 'ubuntu',sans-serif;
+}
+li{
+  list-style: none;
+  display: inline-block;
+
+}
+a{
+    text-decoration: none;
+}
+.contaier{
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+body{
+    background-color: #fbfbfb;
+
+}
+.page-heads{
+    font-family: 'pacifico',cursive;
+    
+    background-color: cornflowerblue;
+    padding-left: 30px;
+    
+
+}
+.page-heads span{
+    color: blueviolet;
+}
+.nav-menu{
+    margin: 10px 0 10px 50px;
+    text-align: center;
+}
+.nav-menu a{
+    color: grey;
+    
+}
+.nav-menu a:hover{
+    color: black;
+}
+.nav-menu li{
+    padding: 10px;
+    font-size: 15px;
+}
+.header-img{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(beautiful-img.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+
+}
+.header-img h2{
+    margin: 15px;
+    text-transform: uppercase;
+}
+.header-img p{
+     margin: 5px 120px;
+     text-align: center; 
+}
+
+.header-img h2:hover{
+    color: black;
+}
+.journy{
+    padding: 70px;
+    margin: auto;
+}
+.journy h2{
+    text-align: center;
+
+}
+.journy p{
+    text-align: center;
+    margin: 35px;
+    
+
+}
+.way{
+    padding: 15px;
+}
+.way img{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+      
+}
+.way h3{
+    text-align: center;
+    
+    color:green;
+    margin-bottom: 20px;
+}
+.way p{
+    text-align: center;
+}
+.option{
+    display: flex;
+    
+}
+.citi img{
+    width: 20%;
+}
+.cities{
+    padding-top: 40px;
+    background-color: aqua;
+    color: azure;
+}
+.img-cities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.citi{
+    width: 29%;
+    margin-bottom: 20px;
+    background-color: black;
+}
+.citi img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.citi h3{
+    text-align: center;
+}
+.citi p{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
